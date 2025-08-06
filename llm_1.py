@@ -3,7 +3,7 @@
 from transformers import pipeline
 classifier = pipeline('sentiment-analysis')
 
-classifier('I am very exited to teach the llm course')
+classifier('I am very exited to learn the llm course')
 
 classifier(['I am feeling happy today','I am feeling sad today'])
 
